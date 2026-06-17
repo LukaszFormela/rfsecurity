@@ -1,0 +1,8 @@
+# Dependencies
+/vendor/
+
+# Environment secrets – NEVER commit this
+.env
+
+# Composer lock is optional to track; include if you want reproducible installs
+# composer.lock

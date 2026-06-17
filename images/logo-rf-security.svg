@@ -1,0 +1,71 @@
+<svg width="380" height="150" viewBox="0 0 380 150" xmlns="http://www.w3.org/2000/svg">
+
+<!-- DARK BACKGROUND -->
+<defs>
+
+<linearGradient id="bgDark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0a0a0a"></stop>
+<stop offset="50%" stop-color="#111111"></stop>
+<stop offset="100%" stop-color="#070707"></stop>
+</linearGradient>
+
+<radialGradient id="glowGreen" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#b8e000" stop-opacity="0.25"></stop>
+<stop offset="100%" stop-color="#b8e000" stop-opacity="0"></stop>
+</radialGradient>
+
+<radialGradient id="glowRed" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#e31e24" stop-opacity="0.25"></stop>
+<stop offset="100%" stop-color="#e31e24" stop-opacity="0"></stop>
+</radialGradient>
+
+</defs>
+
+<!-- BACKGROUND PANEL -->
+<rect width="380" height="150" rx="18" fill="url(#bgDark)"></rect>
+
+<!-- GLOW EFFECTS -->
+<circle cx="70" cy="75" r="60" fill="url(#glowGreen)"></circle>
+<circle cx="90" cy="75" r="60" fill="url(#glowRed)"></circle>
+
+<!-- SHIELD -->
+<path d="M70 20
+C95 20 120 30 120 30
+V75
+C120 105 95 125 70 135
+C45 125 20 105 20 75
+V30
+C20 30 45 20 70 20Z" fill="#121212" stroke="#b8e000" stroke-width="2.5"></path>
+
+<!-- HOUSE ROOF -->
+<path d="M45 78 L70 48 L95 78" fill="none" stroke="#e31e24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+
+<!-- HOUSE BODY -->
+<rect x="50" y="78" width="40" height="35" fill="none" stroke="#e31e24" stroke-width="4" rx="2"></rect>
+
+<!-- DOOR (security accent) -->
+<rect x="66" y="95" width="10" height="18" fill="#b8e000"></rect>
+
+<!-- RF TEXT -->
+<text x="150" y="70" font-size="46" font-family="Inter, Arial, sans-serif" font-weight="800" letter-spacing="2">
+
+<tspan fill="#b8e000">R</tspan>
+<tspan fill="#e31e24">F</tspan>
+
+</text>
+
+<!-- SECURITY -->
+<text x="150" y="100" font-size="20" font-family="Inter, Arial, sans-serif" letter-spacing="6" fill="#ffffff" opacity="0.95">
+
+SECURITY
+
+</text>
+
+<!-- TAGLINE -->
+<text x="150" y="122" font-size="12" font-family="Inter, Arial, sans-serif" fill="#9a9a9a" letter-spacing="0.5">
+
+Monitoring • Alarmy • Smart Home • Automatyka
+
+</text>
+
+</svg>
