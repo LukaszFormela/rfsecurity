@@ -25,7 +25,7 @@ jobs:
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
             ./ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/rfsecurity.pl/ \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/rfsecurity_folder/ \
             --exclude='.git' \
             --exclude='.github' \
             --exclude='composer.json'
