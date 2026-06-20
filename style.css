@@ -90,14 +90,29 @@ align-items:center;
 padding:15px 0;
 }
 
+.logo{
+display:flex;
+align-items:stretch;
+align-self:stretch;
+}
+
+.logo a{
+display:flex;
+align-items:center;
+}
+
 .logo img{
 height:112px;
+width:auto;
+display:block;
+padding:10px 0;
 }
 
 .nav-links{
 display:flex;
 gap:62px;
 list-style:none;
+align-items:center;
 }
 
 .nav-links a{
